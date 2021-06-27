@@ -12,4 +12,4 @@ build:
 	go build -o ./output/golang-artefact ./cmd/takehome
 
 publish:
-	if [[ "$(git branch --show-current)" -ne "master" ]]; then exit 1; fi 
+	if [[ "$(git branch --show-current)" -ne "master" ]]; then exit 1; fi
